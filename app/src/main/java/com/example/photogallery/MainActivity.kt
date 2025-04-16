@@ -33,32 +33,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ImageGalleryScreen() {
-    val context = LocalContext.current
-//    var hasReadStoragePermission by remember {
-//        mutableStateOf(
-//            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) {
-//                ContextCompat.checkSelfPermission(
-//                    context,
-//                    Manifest.permission.READ_EXTERNAL_STORAGE
-//                ) == PackageManager.PERMISSION_GRANTED
-//            } else {
-//                true
-//            }
-//        )
-//    }
-//
-//    val requestPermissionLauncher = rememberLauncherForActivityResult(
-//        contract = ActivityResultContracts.RequestPermission(),
-//        onResult = { isGranted ->
-//            hasReadStoragePermission = isGranted
-//        }
-//    )
-//
-//    LaunchedEffect(Unit) {
-//        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q && !hasReadStoragePermission) {
-//            requestPermissionLauncher.launch(Manifest.permission.READ_EXTERNAL_STORAGE)
-//        }
-//    }
 
     Column(
         modifier = Modifier
