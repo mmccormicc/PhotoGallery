@@ -59,4 +59,7 @@ dependencies {
 
     implementation("io.coil-kt.coil3:coil-compose:3.1.0")
 
+
+    implementation(libs.accompanist.permissions)
+
 }
